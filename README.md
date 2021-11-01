@@ -4,15 +4,9 @@
 An application that allows a USER to post a project link and have it reviewed by other USERS.
 
 
-![HOME PAGE](screenshots/user.png)
-
-### USERS PROFILE
-
 ![HOME PAGE](screenshots/home.png)
 
 ### HOME PAGE
-
-![HOME PAGE](screenshots/profile.png)
 
 ### PROJECTS 
 
