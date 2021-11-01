@@ -19,7 +19,7 @@
         <div class="card" style="width: 18rem; margin: 10px; background-color:white">
           <img class="card-img-top" src="{{project.photo.url}}" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title" style="font-weight: bold;">{{project.title}}</h5><span> <a class="btn btn-info" href="{{project.url}}" target="_blank" style="background-color:yellow;color:black">Visit Site</a> </span>{% if user.is_authenticated %}<span> <a class="btn btn-info" href="{% url 'rate_projects'  project.id %}" style="background-color:yellow;color:blac">Rate</a> </span>{% endif %}
+            <h5 class="card-title" style="font-weight: bold;">{{project.title}}</h5><span> <a class="btn btn-info" href="{{project.url}}" target="_blank" style="background-color:yellow;color:black">Visit Site</a> </span>{% if user.is_authenticated %}<span> <a class="btn btn-info" href="{% url 'rate_projects'  project.id %}" style="background-color:yellow;color:black">Rate</a> </span>{% endif %}
             <p class="card-text">{{project.description}}</p>
             <p class="card-text">Developed By: {{project.user.username}}</p>
             <p class="card-text">Submitted On: {{project.date|date}}</p>
