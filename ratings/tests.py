@@ -5,14 +5,14 @@ from .models import Rate,Profile,Project,User
 class ProjectTestClass(TestCase):
     #setuo method
     def setUp(self):
-        self.user = User(username='martin')
-        self.francis = Project(title = 'love', url='http://love.com', description = 'love is beautiful', user = self.user, photo = 'default.png', date = '12-12-2020')
+        self.user = User(username='mune')
+        self.mune = Project(title = 'football', url='https://www.skysports.com/football/news/11675/12456260/nuno-espirito-santo-tottenham-sack-head-coach', description = 'Tottenham manager', user = self.user, photo = 'default.png', date = '20-10-2021')
         
     #Testing Instance
     def test_instance(self):
-        self.assertTrue(isinstance(self.francis,Project))
+        self.assertTrue(isinstance(self.mune,Project))
         
     def test_save_method(self):
-        self.francis.save_project()
+        self.mune.save_project()
         projects = Project.objects.all()
         self.assertTrue(len(projects) > 0)    
