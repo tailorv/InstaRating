@@ -1,4 +1,4 @@
-# INSTANTGRAM
+# INSTARATINGS
 
 ## Description
 An application that allows a USER to post a project link and have it reviewed by other USERS.
