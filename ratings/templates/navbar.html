@@ -40,15 +40,15 @@
           </div>
         {% if user.is_authenticated %}
         <div class="navbar-nav ml-auto">
-            <span><a href="{% url 'projects' %}" class="btn btn-primary" style="color: white; margin-right: 10px;">Submit A Project</a>
+            <span><a href="{% url 'projects' %}" class="btn btn-primary" style="color: black; margin-right: 300px;background-color:yellow">Submit A Project</a>
             </span>
             <span style="color: white; float: right;"> {{user.username}}</span>   
             
         </div>
         {% else %}     
         <div class="navbar-nav ml-auto">
-            <a href="{% url 'signup' %}" class="btn btn-primary" style="color: white; margin-right: 10px;">Register</a>
-            <a href="{% url 'login' %}" class="btn btn-primary" style="color: white;">Login</a>
+            <a href="{% url 'signup' %}" class="btn btn-blue" style="color: white; margin-right: 10px;">Register</a>
+            <a href="{% url 'login' %}" class="btn btn-blue" style="color: white;">Login</a>
 
         </div>
         {% endif %}
@@ -73,7 +73,7 @@
 {% if user.is_authenticated  %}
 
 {% else %}
-<small class="text-center;" style="color: greenyellow; margin-left: 30%;">please signup to our site so as to enjoy all features</small>
+<small class="text-center;" style="color: red; margin-left: 40%;">Kindly signup to Rate the Projects</small>
 
 {% endif %}
 <hr>
