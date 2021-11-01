@@ -56,7 +56,7 @@ def usersignup(request):
             
             to_email = form.cleaned_data.get('email')
             
-            email = EmailMessage(email_subject, email_body, 'francis.kinyae@student.moringaschool.com',[to_email])
+            email = EmailMessage(email_subject, email_body, 'maxwell.munene@student.moringaschool.com',[to_email])
             
             email.send()
             
