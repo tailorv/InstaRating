@@ -1,7 +1,7 @@
 # INSTANTGRAM
 
 ## Description
-An application will allow a user to post a project he/she has created and get it reviewed by his/her peers.
+An application that allows a USER to post a project link and have it reviewed by other USERS.
 
 
 ![HOME PAGE](screenshots/user.png)
