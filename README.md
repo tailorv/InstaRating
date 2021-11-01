@@ -10,14 +10,6 @@ An application that allows a USER to post a project link and have it reviewed by
 
 
 
-https://user-images.githubusercontent.com/53800104/139714171-195e190c-c2dc-42e2-81d0-34b84c637ac3.mp4
-
-
-
-
-
-https://user-images.githubusercontent.com/53800104/139714182-77bb5c48-7301-4795-af9f-73bea5f10612.mp4
-
 
 ### PROJECTS 
 
