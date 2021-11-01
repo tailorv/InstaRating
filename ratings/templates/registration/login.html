@@ -11,18 +11,18 @@
                 
                 <div class="loginform">
                     <form action="" method="POST">{% csrf_token %}
-                        <div class="container">   
-                            <center><h5 style="font-weight: bold;">Works Awards</h5> </center>   
+                        <div style="background-color:blue" , class="container">   
+                            <center><h5 style="font-weight: bold;">RatingsApp</h5> </center>   
                             
-                            <label>Username : </label>   
-                            <input type="text" placeholder="Enter Username" name="username" required>  
+                            <label >Username : </label>   
+                            <input style="background-color:white" type="text" placeholder="Enter Username" name="username" required>  
                             <label>Password : </label>   
                             <input type="password" placeholder="Enter Password" name="password" required>  
-                            <button type="submit">Login</button>   
-                            Forgot <a href="#"> password? </a>   
+                            <button type="submit" style="color:black;background-color:yellow">Login</button>   
+                            Forgot <a href="#" style="color:red"> password? </a>   
                             <input type="checkbox" checked="checked"> Remember me   
                             <div>
-                            Don't Have an Account? <a href="{% url 'signup' %}">SignUp</a>   
+                            Don't Have an Account? <a href="{% url 'signup' %}" style="color:red">SignUp</a>   
                             </div>
 
                         </div>   
